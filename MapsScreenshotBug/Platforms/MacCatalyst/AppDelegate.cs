@@ -1,0 +1,9 @@
+﻿using Foundation;
+
+namespace MapsScreenshotBug;
+
+[Register("AppDelegate")]
+public class AppDelegate : MauiUIApplicationDelegate
+{
+	protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+}
